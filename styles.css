@@ -5,12 +5,10 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    min-height: 100vh;  /* Use min-height to ensure the body always fills the viewport */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    min-height: 100vh; /* Ensures body takes at least the full height of the viewport */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Allow content to flow down naturally */
-    padding-bottom: 80px; /* Space for footer */
+    justify-content: space-between;
 }
 
 /* Header */
@@ -18,9 +16,8 @@ header {
     background: url('your-image.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 120px 20px;
+    padding: 80px 20px;
     position: relative;
-    overflow: hidden;
     animation: fadeInHeader 2s ease-in-out;
 }
 
@@ -105,11 +102,11 @@ nav a:hover::after {
 
 /* Section Styles */
 section {
-    padding: 100px 20px;
+    padding: 40px 20px;
     text-align: center;
     background: #333;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 10px;
     border-radius: 15px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
     animation: fadeInSection 2s ease-in-out;
